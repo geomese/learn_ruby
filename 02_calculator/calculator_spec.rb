@@ -1,7 +1,8 @@
 # In this problem we are going to make a calculator. 
 
 # Remember to create the file!
-require "calculator.rb"
+require "./calculator.rb"
+require "rspec"
 
 # #add takes two parameters and adds them
 describe "add" do
@@ -55,9 +56,11 @@ end
 describe "#multiply" do
 
   it "multiplies two numbers" do 
+    multiply(5*10).should == 50
   end
 
   it "multiplies several numbers" do
+    multiply(5*5*4).should == 100
   end
 
 end
@@ -66,6 +69,7 @@ end
 describe "#factorial" do
 
   it "computes the factorial of 0" do
+    
   end
 
   it "computes the factorial of 1" do
