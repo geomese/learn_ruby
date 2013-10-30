@@ -1,4 +1,5 @@
-require 'book'
+require './book_titles'
+require 'rspec'
 
 describe Book do
 

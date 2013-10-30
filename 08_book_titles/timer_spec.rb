@@ -1,7 +1,8 @@
 # Timer formats a given # of seconds
 # into something you see on a stopwatch, i.e. 00:00:00 or 00:10:22 
 
-require 'timer'
+require './timer'
+require 'rspec'
 
 describe "Timer" do
 

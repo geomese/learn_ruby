@@ -1,4 +1,5 @@
-require "silly_blocks"
+require "./silly_blocks"
+require "rspec"
 
 describe "some silly block functions" do
 

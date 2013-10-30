@@ -4,7 +4,8 @@
 #
 # Rule 2: If a word begins with a consonant sound, move it to the end of the word, and then add an "ay" sound to the end of the word.
 
-require "pig_latin"
+require "./pig_latin"
+require "rspec"
 
 describe "#translate" do
 
@@ -29,7 +30,7 @@ describe "#translate" do
   # end
 
   # it "translates a word beginning with three consonants" do
-  #   translate("three").should == "eethray"
+  #  translate("three").should == "eethray"
   # end
 
   # it "counts 'sch' as a single phoneme" do

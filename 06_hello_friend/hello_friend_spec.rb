@@ -1,4 +1,5 @@
-require "friend"
+require "./hello_friend"
+require "rspec"
 
 describe Friend do
 
